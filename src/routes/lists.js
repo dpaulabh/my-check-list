@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const list = require('../models/ListModel');
+const list = require('../models/listModel');
 const { authenticate } = require('passport');
 const {Autenticado} = require('../helpers/auth');
 const task = require('../models/taskModel');
